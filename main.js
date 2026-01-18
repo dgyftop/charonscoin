@@ -58,10 +58,10 @@ const STAGES = {
     bg: "assets/instructions.png",
     title: "How to Play — Overview",
     text: `
-      • You play as the <b>Lore Keeper</b>.<br>
-      • Use your device camera to scan AR markers hidden in the environment.<br>
-      • Each marker reveals a voice message or a symbol.<br>
-      • Collect all the pieces, then finish your task.<br>
+      • Your mission is to help the skeleton get back his charon's coin.<br>
+      • Use your device camera to scan AR markers around the museum, you can see them in the brochure.<br>
+      • Each marker gives you a question, answer correctly and you will get the information you need to comlete the game.<br>
+      • Collect all the pieces, and finish the game.<br>
     `,
     buttons: [
       { label: "Back", action: () => goTo("role") }
