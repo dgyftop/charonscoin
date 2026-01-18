@@ -1,0 +1,11 @@
+Model Information:
+* title:	Female Skeleton
+* source:	https://sketchfab.com/3d-models/female-skeleton-0038ffebb8ab474c8d147edf4da612c7
+* author:	projectkaizen (https://sketchfab.com/project_kaizen)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Female Skeleton" (https://sketchfab.com/3d-models/female-skeleton-0038ffebb8ab474c8d147edf4da612c7) by projectkaizen (https://sketchfab.com/project_kaizen) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
