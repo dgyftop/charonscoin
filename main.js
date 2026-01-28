@@ -15,7 +15,7 @@ const STAGES = {
   intro: {
     bg: "assets/intro.png",
     title: "Charon΄s coin",
-    text: `HELP!.`,
+    text: `HELP!`,
     buttons: [
       { label: "help?", action: () => {
           enableSound();
