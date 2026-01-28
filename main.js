@@ -14,10 +14,10 @@ let currentStage = "intro";
 const STAGES = {
   intro: {
     bg: "assets/intro.png",
-    title: "AR Experience",
-    text: `Sth about the setting.`,
+    title: "Charon΄s coin",
+    text: `HELP!.`,
     buttons: [
-      { label: "Start", action: () => {
+      { label: "help?", action: () => {
           enableSound();
           playAmbient();
           speak(STAGES.intro.text);
