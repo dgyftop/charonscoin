@@ -1,0 +1,11 @@
+Model Information:
+* title:	Kylix (Greek)
+* source:	https://sketchfab.com/3d-models/kylix-greek-ffe14358f8ce44b6bc201341e7dc8bfe
+* author:	T.Koeniger (https://sketchfab.com/3D-hannover)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Kylix (Greek)" (https://sketchfab.com/3d-models/kylix-greek-ffe14358f8ce44b6bc201341e7dc8bfe) by T.Koeniger (https://sketchfab.com/3D-hannover) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

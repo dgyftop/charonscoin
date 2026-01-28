@@ -1,0 +1,11 @@
+Model Information:
+* title:	Diana the Huntress
+* source:	https://sketchfab.com/3d-models/diana-the-huntress-2d0ac3c9a7e84ad1b85908742614fad0
+* author:	mjtattersall (https://sketchfab.com/mjtattersall)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Diana the Huntress" (https://sketchfab.com/3d-models/diana-the-huntress-2d0ac3c9a7e84ad1b85908742614fad0) by mjtattersall (https://sketchfab.com/mjtattersall) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
