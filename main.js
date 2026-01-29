@@ -17,7 +17,7 @@ const STAGES = {
     title: "Charon΄s coin",
     text: `HELP!`,
     buttons: [
-      { label: "help?", action: () => {
+      { label: "Accept task", action: () => {
           enableSound();
           playAmbient();
           speak(STAGES.intro.text);
@@ -32,18 +32,18 @@ const STAGES = {
 
   role: {
     bg: "assets/role-selection.png",
-    title: "Your Quest",
-    text: `Explore and reveal what lies hidden.`,
+    title: "Your Task",
+    text: `Help a poor skeleton out!`,
     buttons: [
-      { label: "Lore Keeper", action: () => goTo("lore") },
+      { label: "Next Step", action: () => goTo("lore") },
       { label: "Instructions", action: () => goTo("instructions") }
     ]
   },
 
   lore: {
     bg: "assets/lore-keeper.png",
-    title: "Lore Keeper",
-    text: `Use AR to uncover traces. Each clue will reveal a part of the story.`,
+    title: "Next Step",
+    text: `Use AR to unravel the story`,
     buttons: [
       { label: "Explore via AR", action: () => {
           stopAmbient();
