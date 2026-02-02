@@ -49,6 +49,7 @@ const STAGES = {
           stopAmbient();
           window.open(`ar.html?from=${currentStage}`, "_blank");
       }},
+      { label: "Finish Task", action: () => goTo("end") },
       { label: "Back", action: () => goTo("role") }
     ]
   },
@@ -65,8 +66,15 @@ const STAGES = {
     buttons: [
       { label: "Back", action: () => goTo("role") }
     ]
-  }
-
+  },
+end: {
+  bg: "assets/olympus.jpg",
+  title: "Ολοκλήρωση",
+  text: `Ολοκλήρωσες το ταξίδι σου.<br><br>Θέλεις να ξαναρχίσεις;`,
+  buttons: [
+    { label: "Ξεκίνημα ξανά", action: () => goTo("intro", true) }
+  ]
+}
 };
 
 // ===== Sound / Narration =====
@@ -124,7 +132,12 @@ voiceToggle.addEventListener("click", () => {
 });
 
 // ===== Navigation =====
-function goTo(stage) {
+function goTo(stage, resetAll = false) {
+  if (resetAll === true) {
+    cancelNarration();
+    stopAmbient();
+    disableSound();               // επιστρέφει το σύστημα σε «σίγαση»
+    try { history.replaceState({}, "", location.pathname); } catch {}
  
   }
 
