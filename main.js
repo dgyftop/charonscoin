@@ -65,8 +65,7 @@ const STAGES = {
     buttons: [
       { label: "Back", action: () => goTo("role") }
     ]
-  },
-
+  }
 
 };
 
