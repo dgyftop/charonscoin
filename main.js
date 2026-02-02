@@ -124,7 +124,7 @@ voiceToggle.addEventListener("click", () => {
 });
 
 // ===== Navigation =====
-function goTo(stage, ) {
+function goTo(stage) {
  
   }
 
