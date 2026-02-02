@@ -41,7 +41,7 @@ const STAGES = {
   },
 
   lore: {
-    bg: "assets/lore-keeper.png",
+    bg: "assets/startar.png",
     title: "Next Step",
     text: `Use AR to unravel the story`,
     buttons: [
