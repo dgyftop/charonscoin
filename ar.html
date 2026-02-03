@@ -44,6 +44,21 @@
     <button id="return-button">Return</button>
   </div>
 
+  <div class='question' style='display:none;'>
+    <p>
+      lfkgjdflkgjdflgkdfjldfkjdflkj<br/>
+      dfgdfldfkgjdlfgkjdflkgj<br/>
+      dfdfgdfgdf  df d  dfg
+      
+    </p>
+    <p>
+      Ερώτηση .....?
+    </p>
+    <button>Apanthsh 1</button>
+    <button>Apanthsh 2</button>
+    <button>Apanthsh 3</button>
+  </div>
+
   <div id="ar-ui" class="mindar-container"></div>
 
   <script type="module">
@@ -86,8 +101,16 @@
 
       anchor.group.add(audio);
 
-      anchor.onTargetFound = () => audio.play();
-      anchor.onTargetLost = () => audio.pause();
+      anchor.onTargetFound = () => {
+        audio.play();
+        var questionDiv = document.getElementsByClassName("question");
+        questionDiv.style.display = "block";
+      }
+      anchor.onTargetLost = () => {
+        audio.pause();
+        var questionDiv = document.getElementsByClassName("question");
+        questionDiv.style.display = "none";
+      }
 
       return anchor;
     };
@@ -123,7 +146,7 @@
         1, 
         listener, 
         './assets/sounds/sound2.mp3', 
-        new THREE.Vector3(0.02, 0.02, 0.02) 
+        new THREE.Vector3(0.01, 0.01, 0.01) 
       );
 
       await createExperience(
@@ -131,7 +154,7 @@
         2, 
         listener, 
         './assets/sounds/sound3.mp3', 
-        new THREE.Vector3(0.02, 0.02, 0.02)
+        new THREE.Vector3(0.1, 0.1, 0.1)
       );
 
       await mindarThree.start();
