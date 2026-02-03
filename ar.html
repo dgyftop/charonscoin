@@ -103,13 +103,13 @@
 
       anchor.onTargetFound = () => {
         audio.play();
-        var questionDiv = document.getElementsByClassName("question");
-        questionDiv.style.display = "block";
+        //var questionDiv = document.getElementsByClassName("question");
+        //questionDiv.style.display = "block";
       }
       anchor.onTargetLost = () => {
         audio.pause();
-        var questionDiv = document.getElementsByClassName("question");
-        questionDiv.style.display = "none";
+        //var questionDiv = document.getElementsByClassName("question");
+        //questionDiv.style.display = "none";
       }
 
       return anchor;
