@@ -109,7 +109,10 @@
 
       anchor.group.add(audio);
 
-      anchor.onTargetFound = () => audio.play();
+      anchor.onTargetFound = () => {
+        audio.play();
+        alert("found it");
+      };
       anchor.onTargetLost = () => audio.pause();
 
       return anchor;
@@ -167,6 +170,16 @@
     };
 
     startAREngineButton.addEventListener("click", start);
+  </script>
+  <script>
+    function showDiv(id) {
+      document.getElementById(id).style.display = "block";
+    }
+    function hideDiv(id) {
+      document.getElementById(id).style.display = "none";
+    }
+
+
   </script>
 
 </body>
